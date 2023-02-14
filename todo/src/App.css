@@ -1,0 +1,80 @@
+
+body{
+ background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRunhpEtlRDsxONsjNQlEv8S_JT4oiVSh-Hyw&usqp=CAU");
+  
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.center-container{
+  height: 500px;
+  width: 500px;
+}
+.app-heading{
+
+  color: rgb(10, 10, 10);  
+  text-align: center;
+  
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+
+}
+.input-box-todo{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  border:1px solid black;
+  padding-left: 10px;  ;
+  font-size: 15px
+}
+.add-btn{
+  margin-top: 27px;
+  margin-right: 10px;
+  width:70px;
+  height:30px;
+  border-radius: 10px;
+  border:none;
+  background-color:#316fc1;
+  color: white;
+  font-size: larger;
+  margin-left: 10px;
+}
+.add-btn:active{
+  box-shadow: none;
+}
+.list-container{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.list-item{
+  border:1px solid rgb(161, 158, 158);
+  color:rgb(3, 3, 3);
+  padding:3px;
+  padding-left: 5px;
+  border-radius: 5px; 
+  border-color: black;
+  font-size: 18px;
+  margin: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.icons{
+  position: absolute;
+  right: 10px;
+  color: black;
+}
+.icons i{
+  margin: 4px;
+}
+.icon-delete:hover{
+  color: red;
+}
